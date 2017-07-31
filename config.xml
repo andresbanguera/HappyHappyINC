@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.happyhappyinc" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+﻿<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.autentia.ionic.pushnotifications" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>happyhappy</name>
     <description>
-        HappyHappyINC
+        happyhappy / Lo que quieres con lo que tienes
     </description>
-    <author email="andresbanguera@happyhappyinc.com" href="http://www.happyhappyinc.com">
-        Andres Banguera R
+    <author email="marlandy@autentia.com" href="http://www.autentia.com">
+        Miguel Arlandy Rodríguez
     </author>
     <icon src="logo.png" />
     <content src="index.html" />
