@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 ﻿<?xml version='1.0' encoding='utf-8'?>
-=======
-<?xml version='1.0' encoding='utf-8'?>
->>>>>>> origin/master
 <widget id="com.autentia.ionic.pushnotifications" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>FOCUS</name>
+    <name>happyhappy</name>
     <description>
-        FOCUS
+        happyhappy / Lo que quieres con lo que tienes
     </description>
     <author email="marlandy@autentia.com" href="http://www.autentia.com">
         Miguel Arlandy Rodríguez
