@@ -20,7 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
-        alert("hola mundo");
+        navigator.vibrate([500, 250, 100, 1000]);
     },
     // Bind Event Listeners
     //
