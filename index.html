@@ -67,16 +67,11 @@
 <div id="loader"></div>
 
 <div style="display:none;" id="myDiv" class="animate-bottom">
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-        <script type="text/javascript">
-        window.location="http://www.happyhappyinc.com/happy1/app/src/selec_log.html";
-        </script>
+        
 </div>
 
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 <script>
 var myVar;
 
@@ -87,6 +82,8 @@ function myFunction() {
 function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
+  app.initialize();
+  window.location="http://www.happyhappyinc.com/happy1/app/src/selec_log.html";
 }
 </script>
 
