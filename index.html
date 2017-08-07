@@ -62,7 +62,7 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>HappyHappy</title>
 </head>
-<body onload="myFunction()" style="margin:0;">
+<body onload="myFunction()">
 
 <div id="loader"></div>
 
@@ -76,7 +76,7 @@
 var myVar;
 
 function myFunction() {
-    myVar = setTimeout(mostrarAviso, 4000);
+    myVar = setTimeout(showPage, 4000);
 }
 
 function showPage() {
@@ -84,12 +84,14 @@ function showPage() {
   document.getElementById("myDiv").style.display = "block";
 }
 
-function mostrarAviso(){
-    app.initialize();
-    window.location="http://www.happyhappyinc.com/happy1/app/src/selec_log.html";
-}
-</script>
 
+</script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+            window.location="http://www.happyhappyinc.com/happy1/app/src/selec_log.html";
+        </script>
 </body>
 </html>
 
