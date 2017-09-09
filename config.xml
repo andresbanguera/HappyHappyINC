@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.happyhappyinc.app"
-        version   = "1.0.0">
+        version   = "1.0.1">
 
     <name>HappyHappy</name>
 
@@ -76,9 +76,10 @@
     <plugin name="cordova-plugin-globalization" />
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-vibration" />
-    
     <plugin name="cordova-plugin-camera" spec="~2.1" />
-
+    <plugin name="cordova-plugin-media-capture" />
+    <plugin name="cordova-plugin-media" />
+    
     <!-- Define app icon for each platform. -->
     <icon src="logo.png" />
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
