@@ -78,7 +78,6 @@
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-vibration" />
     <plugin name="cordova-plugin-camera" />
-    <plugin name="cordova-plugin-camera-preview"/>
 
     <!-- Define app icon for each platform. -->
     <icon src="logo.png" />
